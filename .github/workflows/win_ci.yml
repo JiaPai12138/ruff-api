@@ -61,6 +61,7 @@ jobs:
           path: dist
       - name: Install
         run: |
+          pip install attribution flake8 maturin mypy pytest ufmt usort
           pip install --upgrade pip
           pip install --no-index --find-links dist/ --only-binary ruff-api ruff-api
           pip install ruff-api[dev]
