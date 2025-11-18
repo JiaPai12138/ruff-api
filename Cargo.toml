@@ -9,7 +9,7 @@ name = "ruff_api"
 crate-type = ["cdylib"]
 
 [dependencies]
-pyo3 = {version = "*", features = ["extension-module", "abi3-py312"]}
+pyo3 = {version = "*", features = ["extension-module", "abi3-py39"]}
 
 anstyle = "1.0.13"
 glob = "0.3.3"
